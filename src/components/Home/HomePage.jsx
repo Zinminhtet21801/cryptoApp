@@ -10,7 +10,6 @@ const { Title } = Typography;
 const HomePage = () => {
   const { data, isFetching } = useGetCryptosQuery(10)
   const globalStats = data?.data?.stats
-  console.log(process.env.REACT_APP_CRYPTO_HOST);
   if( !data ) return <Loader />
   return (
     <>
