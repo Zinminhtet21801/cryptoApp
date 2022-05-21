@@ -1,7 +1,8 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 const cryptoApiHeaders = {
-  'x-access-token': process.env.REACT_APP_COIN_RANKING_TOKEN
+  'x-access-token': process.env.REACT_APP_COIN_RANKING_TOKEN,
+  'no-cors': true,
 };
 
 const baseUrl = "https://api.coinranking.com/v2/migration/";
