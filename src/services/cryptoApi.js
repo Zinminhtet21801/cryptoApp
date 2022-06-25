@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 const cryptoApiHeaders = {
-  'x-access-token': process.env.REACT_APP_COIN_RANKING_TOKEN.split("coinranking")[1],
+  'x-access-token': process.env.REACT_APP_COIN_RANKING_TOKEN,
   // 'no-cors': true,
 };
 
