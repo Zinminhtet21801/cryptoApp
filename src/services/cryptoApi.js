@@ -4,7 +4,7 @@ const cryptoApiHeaders = {
   'no-cors': true,
 };
 
-const baseUrl = "https://api.coinranking.com/v2/migration/";
+const baseUrl = "https://api.coinranking.com/v2/";
 
 const createRequest = (url) => ({ url, headers: cryptoApiHeaders });
 
